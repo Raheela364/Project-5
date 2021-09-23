@@ -1,0 +1,87 @@
+.container {
+    background-color: #aaaaaa;
+    display: inline-flex;
+    max-width: 980px;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items:stretch;
+    margin: 3px;
+    text-align: center;
+    font-size: 20px;
+}
+.wrapper {
+    background-color: #666666;
+    max-width: 980px;   
+}
+.item1 {
+    height: 75px;
+    width: 120px; 
+    border: 12.5px solid #666666;  
+} 
+.item2 {
+    height: 50px;
+    width: 150px;
+    border: 25px solid #666666;
+    border-left-width: 660px;    
+}
+.item3 {
+    height: 70px;
+    width: 980px;
+    border: 10px solid #666666; 
+} 
+.item4{
+    height: 250px;
+    width: 980px;
+    font-size: 25px;
+    text-align: center;
+    border: 10px solid #666666;
+}
+.item5 {
+    height: 100px;
+    width: 165px;
+    font-size: 25px;
+    border: 10px solid #666666;   
+} 
+.item6 {
+    height: 100px;
+    width: 165px;
+    font-size: 25px;
+    border: 10px solid #666666;
+}
+.item7 {
+    height: 100px;
+    width: 165px;
+    font-size: 25px;
+    border: 10px solid #666666;  
+} 
+.item8 {
+    height: 100px;
+    width: 165px;
+    font-size: 25px;
+    border: 10px solid #666666;
+}
+.item5,
+.item6,
+.item7,
+.item8 {
+    display: inline-flex;
+    padding-left: 60px;
+}
+.item9 {
+    height: 350px;
+    width: 626.5px;
+    font-size: 25px;
+    border: 10px solid #666666;
+}
+.item10 {
+    height: 350px;
+    width: 313.25px;
+    font-size: 25px;
+    border: 10px solid #666666;
+}
+.item11 {
+    height: 50px;
+    width: 980px;
+    font-size: 25px;
+    border: 10px solid #666666;
+}
